@@ -1,0 +1,22 @@
+{
+  "name": "tay-sample",
+  "version": "0.0.1",
+  "description": "Sample service using Tay to test Tay functionality",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/edwarddoh/Tay-sample.git"
+  },
+  "author": "Hyunoh Doh",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/edwarddoh/Tay-sample/issues"
+  },
+  "homepage": "https://github.com/edwarddoh/Tay-sample#readme",
+  "dependencies": {
+    "tay": "file:../Tay"
+  }
+}
