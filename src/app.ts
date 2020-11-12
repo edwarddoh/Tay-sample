@@ -1,9 +1,9 @@
-import Tay from 'tay';
-
-const router: Tay.Router = new Tay.Router();
+import Tay from 'tayjs';
+import { Observable,  } from 'rxjs';
 
 // request pre handling
 
 // response pre handling
-const server: Tay.Server = Tay.startServer(8080, [router]);
+const server: Tay.Server = Tay.createServer();
+
 
